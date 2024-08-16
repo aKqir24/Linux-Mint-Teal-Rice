@@ -4,6 +4,6 @@ This is my personal folder full all my previus configuration of the software I u
 #### Config's
 <ul>
   <li><h4><a href="https://github.com/aKqir24/aKqir24/tree/main/polybar">Polybar</h4></a></li></h4>
-  <li><h4><a href="https://github.com/aKqir24/aKqir24/tree/main/polybar">VSCode</h4></a></li></h4>
+  <li><h4><a href="https://github.com/aKqir24/aKqir24-s-Folder/tree/main/i3">VSCode</h4></a></li></h4>
   <li><h4><a href="https://github.com/aKqir24/aKqir24/tree/main/polybar">i3wm</h4></a></li></h4>
 </ul>
