@@ -1,0 +1,115 @@
+/*******************************************************************************
+ * ROFI SQUARED THEME USING THE MATERIAL DARKER PALETTE 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+* {
+    bg0:     #212121;
+    bg1:     #404040;
+    fg0:     #eeffff;
+
+    accent-color:     #f07178;
+    urgent-color:     #ffcb6b;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     0;
+    padding:    0;
+    spacing:    0;
+    
+}
+window {
+    width: 45%;
+    location: center;
+    border-radius: 10px;
+    background-color: @bg0;
+
+}
+
+inputbar {
+    spacing: 10px; 
+    padding: 10px;
+    background-color: @bg1;
+    
+    border: 3px;
+    cursor: text;
+    border-radius: 10px;
+    children:   [ prompt, entry ];
+}
+
+prompt, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+prompt {
+    text-color: @accent-color;
+}
+
+textbox {
+    padding:            4px;
+    background-color:   @bg1;
+}
+
+message {
+    margin:             12px 0 0;
+    border-radius:      10px;
+    border-color:       @bg0;
+    background-color:   @bg0;
+}
+
+mainbox {
+    padding:    6px;
+}
+
+listview {
+    lines: 8;
+    columns: 1;
+    padding: 10px 0;
+    fixed-height: false;
+    background-color: transparent;
+
+}
+
+element {
+    padding:    8px;
+    spacing:    6px;
+    border-radius: 10px;
+}
+
+element normal normal {
+    text-color: @fg0;
+}
+
+element normal urgent {
+    text-color: @urgent-color;
+}
+
+element normal active {
+    text-color: @accent-color;
+}
+
+element alternate active {
+    text-color: @accent-color;
+}
+
+element selected {
+    text-color: @bg0;
+}
+
+element selected normal, element selected active {
+    background-color:   @accent-color;
+}
+
+element selected urgent {
+    background-color:   @urgent-color;
+}
+
+element-icon {
+    size:   1.42em;
+}
+
+element-text {
+    text-color: inherit;
+}
