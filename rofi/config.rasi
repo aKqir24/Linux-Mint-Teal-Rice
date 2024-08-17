@@ -1,0 +1,11 @@
+configuration {
+show-icons: true;
+display-run: "Search :";
+display-drun: "Search :";
+display-window: "Windows:";
+drun-display-format: "{icon} {name}";
+font: "Quicksand Medium 11";
+modi: "window,run,drun";
+icon-theme: "Papirus";
+}
+@theme "/home/akqir24/.local/share/rofi/themes/rounded-material-red-dark.rasi"
