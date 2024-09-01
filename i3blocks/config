@@ -1,0 +1,96 @@
+# i3blocks config file
+#
+# Please see man i3blocks for a complete reference!
+# The man page is also hosted at http://vivien.github.io/i3blocks
+#
+# List of valid properties:
+#
+# align
+# color
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+# Global properties
+#
+# The top properties below are applied to every block, but can be overridden.
+# Each block command defaults to the script name to avoid boilerplate.
+# Change $SCRIPT_DIR to the location of your scripts!
+command=$SCRIPT_DIR/$BLOCK_NAME
+separator_block_width=2
+markup=pango
+
+# Network interface monitoring
+[wifi]
+command=$SCRIPT_DIR/wifi/wifi
+label=wifi:
+interval=40
+
+[bandwidth]
+command=$SCRIPT_DIR/bandwidth3/bandwidth3 
+interval=persist
+markup=pango
+
+# Music Player
+[mediaplayer]
+instance=rhythmbox
+interval=5
+signal=10
+
+# PC lm-sensors
+[temperature]
+command=$SCRIPT_DIR/temperature/temperature
+interval=10
+markup=pango
+
+[memory]
+command=$SCRIPT_DIR/memory/memory
+background=#88c0d0
+color=#333333
+markup=pango
+interval=6
+min_width=memor
+
+[cpu_usage]
+command=$SCRIPT_DIR/cpu_usage/cpu_usage
+min_width=cpucp
+markup=pango
+separator=false
+interval=3
+
+[disk]
+command=$SCRIPT_DIR/disk/disk
+separator=false
+interval=30
+
+# Date & Time
+[date]
+command=echo "<span foreground='#629488' size='large'>  </span> <span size='small' rise='1pt'>$(date +"%m-%d-%Y") </span>"; if [ $button ]; then orage -t; fi
+markup=pango
+interval=20
+
+[time]
+command=echo "<span foreground='#629488' background='#333333' size='x-large'></span><span background='#629488'> <span foreground='#333333' size='large'> </span><span foreground='#333333' size='small' rise='2pt'>$(date +"%l:%M %p")</span></span><span background='#629488' foreground='#333333' size='x-large'> </span>"
+markup=pango
+interval=15
+
+# Volume indicator
+[volume]
+command=$SCRIPT_DIR/volume/volume
+interval=once
+signal=10
+
+# shudown menu
+[rofi-powermenu]
+command=$SCRIPT_DIR/shutdown_menu/rofi-power-menu
+markup=pango
+interval=1
