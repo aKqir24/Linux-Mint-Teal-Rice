@@ -1,4 +1,4 @@
-![Screenshot_2024-09-02_02-08-18](https://github.com/user-attachments/assets/20ba839c-141a-4aa7-8738-c1be00b5521b)# AKqir Profile Folder
+# AKqir Profile Folder
 This is my personal folder full all my previus configuration of the software I use in a daily basis, I also keep some notes to remind me of something, also you are free to see or use my config's...
 
 #### Config's
