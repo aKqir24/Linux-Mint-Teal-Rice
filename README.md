@@ -1,17 +1,7 @@
 # Linux Mint Teal Rice
-My first ever linux distro, linux mint rice based of the teal colors of the wallpaper and my taste of colors I think... I hope you will like it :)
+My first ever linux distro, linux mint rice based of the teal colors of the wallpaper and my taste of colors I think... The environment it uses the i3blocks as status and i3 for its windwow manager I hope you will like it :)
 
-#### Config's
-
-<ul>
-  <li><h4><a href="https://github.com/aKqir24/aKqir24/tree/main/polybar">Polybar</h4></a></li></h4>
-  <li><h4><a href="https://github.com/aKqir24/aKqir24-s-Folder/tree/main/i3">i3wm</h4></a></li></h4>
-  <li><h4><a href="https://github.com/aKqir24/aKqir24/tree/main/polybar">VSCode</h4></a></li></h4>
-  <li><h4><a href="https://github.com/aKqir24/aKqir24/tree/main/rofi">Rofi</h4></a></li></h4>
-</ul>
-<br>
-
-<h3> Screenshots </h3> 
+<div align='center'><h3> Screenshots </h3></div> 
 
 | <h4> Desktop </h4>                                                                                                   |  <h4> Windows / Tiles </h4>                                                                                          |
 |----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
