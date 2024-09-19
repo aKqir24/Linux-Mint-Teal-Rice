@@ -1,4 +1,4 @@
-# AKqir Profile Folder
+# Linux Mint Teal Rice
 This is my personal folder full all my previus configuration of the software I use in a daily basis, I also keep some notes to remind me of something, also you are free to see or use my config's...
 
 #### Config's
@@ -11,6 +11,7 @@ This is my personal folder full all my previus configuration of the software I u
 </ul>
 <br>
 
-### My Desktop
+### Screenshots
 
 ![Screenshot_2024-09-02_02-44-27](https://github.com/user-attachments/assets/fc3e849e-5a73-4378-9b20-ae4f70f98a49)
+![Screenshot_2024-09-08_15-21-20](https://github.com/user-attachments/assets/7df46a52-2123-48be-ab9f-047bb05081bf)
