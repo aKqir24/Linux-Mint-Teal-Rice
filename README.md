@@ -1,5 +1,5 @@
 # Linux Mint Teal Rice
-My first ever linux distro, linux mint rice based of the teal colors of the wallpaper and my taste of colors I think... The environment it uses the i3blocks as status and i3 for its windwow manager I hope you will like it :)
+My first ever linux distro, linux mint rice based of the teal colors of the wallpaper and my taste of colors I made this configuration of my desktop... The environment uses the i3blocks as its status bar and i3 for its default windwow manager I hope you will like it :)
 
 <div align='center'><h3> Screenshots </h3></div> 
 
